@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0D0D0D;
+    color: #F5F0E8;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-cormorant), Georgia, serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 lg:py-36;
+  }
+
+  /* Fondo carbón con gradiente atmosférico — Hero, Navbar al scroll */
+  .bg-carbon-texture {
+    background-color: #0D0D0D;
+    background-image: radial-gradient(ellipse at 20% 50%, #1a0505 0%, #0D0D0D 70%);
+  }
+
+  /* Fondo vino con textura real — AgeGate, sección El Tunche */
+  .bg-vino-texture {
+    background-color: #5B0F16;
+    background-image: url('/textures/velvet.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+
+  /* Fondo madera con textura real — sección Nosotros */
+  .bg-madera-texture {
+    background-color: #4A3426;
+    background-image: url('/textures/wood-vein.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+
+  /* Overlay de grano sutil — clase utilitaria para cualquier sección oscura */
+  .grain-overlay {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .grain-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('/textures/velvet.jpg');
+    background-size: 350px 350px;
+    opacity: 0.04;
+    pointer-events: none;
+    z-index: 0;
+  }
+}
