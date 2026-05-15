@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { fadeInUp, staggerContainer } from '@/lib/animations'
 
-export default function Hero() {
+export default function Inicio() {
   return (
     <section
       id="inicio"
@@ -29,17 +29,17 @@ export default function Hero() {
       >
         <motion.p
           variants={fadeInUp}
-          className="font-body text-xs tracking-[0.4em] uppercase text-tunche-dorado mb-8"
+          className="font-body text-xs tracking-[0.4em] uppercase text-tunche-neblina mb-8"
         >
-          Cusco, Perú — Desde 2019
+          Cusco, Perú — Desde 2025
         </motion.p>
 
         <motion.h1
           variants={fadeInUp}
-          className="font-display text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-tunche-humo tracking-wide leading-none mb-6"
+          className="font-display text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-tunche-vino tracking-wide leading-none mb-6"
         >
           El Huerto<br />
-          <span className="text-tunche-dorado italic">del Tunche</span>
+          <span className="italic">del Tunche</span>
         </motion.h1>
 
         <motion.div
@@ -66,7 +66,7 @@ export default function Hero() {
             href="#productos"
             className="inline-block font-body text-xs tracking-[0.3em] uppercase px-10 py-4 border border-tunche-dorado text-tunche-dorado hover:bg-tunche-dorado hover:text-tunche-carbon transition-all duration-300"
           >
-            Descubrir los licores
+            Descubrir nuestros productos
           </a>
         </motion.div>
       </motion.div>
@@ -78,7 +78,7 @@ export default function Hero() {
         transition={{ duration: 1.5, delay: 1.2 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="font-body text-[10px] tracking-[0.3em] uppercase text-tunche-neblina/50">Scrollear</span>
+        <span className="font-body text-[10px] tracking-[0.3em] uppercase text-tunche-neblina/50">Ver más</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}

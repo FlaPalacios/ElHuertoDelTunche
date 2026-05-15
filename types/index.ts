@@ -5,9 +5,9 @@ export type Categoria = 'licor' | 'mermelada' | 'chocolate'
 export interface ProductoLicor {
   id: string
   sabor: Sabor
-  presentacion: PresentacionLicor
   nombre: string
   descripcion: string
+  presentaciones: PresentacionLicor[]
   imageSrc: string
   imageAlt: string
 }

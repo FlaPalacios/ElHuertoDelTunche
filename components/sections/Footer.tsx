@@ -9,7 +9,7 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   {
     label: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/huerto_del_tunche/',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-5 h-5">
         <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
@@ -42,7 +42,7 @@ const navLinks = [
   { label: 'Inicio', href: '#inicio' },
   { label: 'Nosotros', href: '#nosotros' },
   { label: 'Productos', href: '#productos' },
-  { label: 'El Tunche', href: '#el-tunche' },
+  { label: 'El Tunche', href: '/el-tunche' },
   { label: 'Contacto', href: '#contacto' },
 ]
 
@@ -64,7 +64,7 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <p className="font-display text-lg text-tunche-humo tracking-wide">El Huerto del Tunche</p>
+                <p className="font-display text-lg text-tunche-blanco tracking-wide">El Huerto del Tunche</p>
                 <p className="font-body text-xs text-tunche-neblina tracking-wider">Cusco, Perú</p>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function Footer() {
                   <li key={link.href}>
                     <a
                       href={link.href}
-                      className="font-body text-sm text-tunche-neblina hover:text-tunche-humo transition-colors duration-300"
+                      className="font-body text-sm text-tunche-neblina hover:text-tunche-blanco transition-colors duration-300"
                     >
                       {link.label}
                     </a>

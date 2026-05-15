@@ -14,8 +14,8 @@ const config: Config = {
           vino:    '#5B0F16',
           madera:  '#4A3426',
           dorado:  '#B08A47',
-          neblina: '#7B7B75',
-          humo:    '#F5F0E8',
+          neblina: '#9a9a9a',
+          blanco:  '#cccccc',
         },
       },
       fontFamily: {

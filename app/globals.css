@@ -60,9 +60,9 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/textures/velvet.jpg');
-    background-size: 350px 350px;
-    opacity: 0.04;
+    background-image: url('/textures/grain.png'); /* grain.png pendiente de entrega */
+    background-size: 200px 200px;
+    opacity: 0.035;
     pointer-events: none;
     z-index: 0;
   }

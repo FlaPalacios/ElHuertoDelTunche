@@ -39,7 +39,7 @@ export default function AgeGate({ isOpen, onConfirm, onDeny }: AgeGateProps) {
             <div className="border-t border-tunche-dorado/40 w-16" />
 
             <div className="space-y-3">
-              <h2 className="font-display text-4xl text-tunche-humo tracking-wide">
+              <h2 className="font-display text-4xl text-tunche-vino tracking-wide">
                 El Tunche
               </h2>
               <p className="font-body text-tunche-neblina text-sm leading-relaxed">
@@ -61,7 +61,7 @@ export default function AgeGate({ isOpen, onConfirm, onDeny }: AgeGateProps) {
               </button>
               <button
                 onClick={onDeny}
-                className="flex-1 px-8 py-3 border border-tunche-neblina/40 text-tunche-neblina font-body text-sm tracking-widest uppercase transition-all duration-300 hover:border-tunche-neblina hover:text-tunche-humo"
+                className="flex-1 px-8 py-3 border border-tunche-neblina/40 text-tunche-neblina font-body text-sm tracking-widest uppercase transition-all duration-300 hover:border-tunche-neblina hover:text-tunche-blanco"
               >
                 No, soy menor
               </button>

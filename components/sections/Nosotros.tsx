@@ -27,26 +27,26 @@ export default function Nosotros() {
             className="space-y-8"
           >
             <motion.div variants={fadeInUp} className="space-y-2">
-              <p className="font-body text-xs tracking-[0.35em] uppercase text-tunche-dorado">
+              <p className="font-body text-xs tracking-[0.35em] uppercase text-tunche-blanco">
                 Nuestra historia
               </p>
-              <h2 className="font-display text-5xl lg:text-6xl text-tunche-humo tracking-wide leading-tight">
+              <h2 className="font-display text-5xl lg:text-6xl text-tunche-vino tracking-wide leading-tight">
                 Nacidos del<br />
-                <span className="italic text-tunche-dorado">bosque sagrado</span>
+                <span className="italic">bosque sagrado</span>
               </h2>
             </motion.div>
 
             <motion.div variants={fadeInUp} className="h-px w-16 bg-tunche-dorado/50" />
 
             <motion.p variants={fadeInUp} className="font-body text-tunche-neblina leading-[1.8] text-base">
-              El Huerto del Tunche nació en 2019 en un pequeño taller de Cusco, cuando Guillermo decidió
+              El Huerto del Tunche nació en 2025 en un pequeño taller de Cusco, cuando Guillermo decidió
               destilar las frutas que crecen entre los bosques nublados que rodean la ciudad imperial.
               Lo que empezó como una búsqueda personal —honrar los sabores de su tierra— se convirtió
               en una marca artesanal con identidad propia.
             </motion.p>
 
             <motion.p variants={fadeInUp} className="font-body text-tunche-neblina leading-[1.8] text-base">
-              El nombre rinde homenaje al <em className="text-tunche-humo not-italic font-medium">Tunche</em>,
+              El nombre rinde homenaje al <em className="text-tunche-blanco not-italic font-medium">Tunche</em>,
               el espíritu protector de la selva amazónica en la cosmovisión andina —un ser etéreo que
               habita entre los árboles y guía a quienes respetan la naturaleza. Cada botella lleva ese
               espíritu: salvaje, honesto, cusqueño.
@@ -88,7 +88,7 @@ export default function Nosotros() {
 
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 p-12 text-center">
                 <div className="h-px w-12 bg-tunche-dorado/40" />
-                <p className="font-display text-2xl text-tunche-humo italic leading-relaxed">
+                <p className="font-display text-2xl text-tunche-blanco italic leading-relaxed">
                   &ldquo;La naturaleza cusqueña destilada en cada gota&rdquo;
                 </p>
                 <div className="h-px w-12 bg-tunche-dorado/40" />

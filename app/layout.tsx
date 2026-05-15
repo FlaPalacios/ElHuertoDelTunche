@@ -43,7 +43,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="es" className={`${cormorant.variable} ${inter.variable}`}>
-      <body className="bg-tunche-negro font-body antialiased">
+      <body className="bg-tunche-carbon font-body antialiased">
         {children}
       </body>
     </html>
