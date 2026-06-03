@@ -29,7 +29,7 @@ export default function Productos() {
           animate={isInView ? 'visible' : 'hidden'}
           className="text-center mb-20 space-y-4"
         >
-          <motion.p variants={fadeInUp} className="font-body text-xs tracking-[0.35em] uppercase text-tunche-dorado">
+          <motion.p variants={fadeInUp} className="font-body text-xs tracking-[0.35em] uppercase text-tunche-blanco">
             Nuestros productos
           </motion.p>
           <motion.h2 variants={fadeInUp} className="font-display text-5xl lg:text-6xl text-tunche-vino tracking-wide">
@@ -37,11 +37,11 @@ export default function Productos() {
             <span className="italic">del huerto</span>
           </motion.h2>
           <motion.div variants={fadeInUp} className="flex items-center justify-center gap-4">
-            <span className="h-px w-12 bg-tunche-dorado/40" />
+            <span className="h-px w-14 bg-tunche-vino/70" />
             <p className="font-body text-tunche-neblina text-sm max-w-md">
               Tres familias de producto, un solo origen. Frutas frescas, producción artesanal, lotes pequeños.
             </p>
-            <span className="h-px w-12 bg-tunche-dorado/40" />
+            <span className="h-px w-14 bg-tunche-vino/70" />
           </motion.div>
         </motion.div>
 
@@ -158,7 +158,7 @@ function ElTuncheBloque({ isInView }: { isInView: boolean }) {
       className="relative overflow-hidden"
     >
       {/* Imagen de fondo atmosférica */}
-      <div className="relative w-full aspect-[16/7] overflow-hidden">
+      <div className="relative w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-[16/7] overflow-hidden">
         <div className="absolute inset-0 border border-tunche-dorado/20 z-10" />
         <Image
           src="/images/selva-misteriosa-eltunche.jpg"

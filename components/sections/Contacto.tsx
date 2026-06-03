@@ -5,8 +5,8 @@ import { motion, useInView } from 'framer-motion'
 import { fadeInUp, staggerContainer } from '@/lib/animations'
 
 const contactData = [
-  { label: 'Teléfono', value: '+51 902 265 556' },
-  { label: 'Email', value: 'hola@huertodeltunche.pe' },
+  { label: 'Teléfono', value: '+51 984 798 936' },
+  { label: 'Email', value: ' elhuertodeltunche@gmail.com' },
   { label: 'Ubicación', value: 'Cusco, Perú — Valle Sagrado' },
 ]
 
@@ -124,8 +124,19 @@ export default function Contacto() {
               </p>
               <div className="h-px w-12 bg-tunche-blanco/40" />
               <p className="font-body text-xs tracking-[0.25em] uppercase text-tunche-blanco">
-                El Huerto del Tunche · Desde 2025
+                El Huerto del Tunche
               </p>
+            </motion.div>
+
+            <motion.div variants={fadeInUp}>
+              <a
+                href="https://wa.me/51984798936?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block font-body text-xs tracking-[0.3em] uppercase px-10 py-4 border border-tunche-dorado text-tunche-dorado hover:bg-tunche-dorado hover:text-tunche-carbon transition-all duration-300"
+              >
+                Envíanos un mensaje
+              </a>
             </motion.div>
           </motion.div>
 

@@ -17,9 +17,9 @@ export default function AgeGate({ isOpen, onConfirm, onDeny }: AgeGateProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 0.6 } }}
-          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-vino-texture px-6"
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#0D0D0D] px-6"
         >
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_#5B0F1666_0%,_#0D0D0D_75%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_90%_90%_at_50%_50%,_#080808_0%,_#181818_90%)]" />
 
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -36,10 +36,10 @@ export default function AgeGate({ isOpen, onConfirm, onDeny }: AgeGateProps) {
               />
             </div>
 
-            <div className="border-t border-tunche-dorado/40 w-16" />
+            <div className="border-t border-tunche-dorado/40 w-36" />
 
             <div className="space-y-3">
-              <h2 className="font-display text-4xl text-tunche-vino tracking-wide">
+              <h2 className="font-display text-4xl text-tunche-dorado tracking-wide">
                 El Tunche
               </h2>
               <p className="font-body text-tunche-neblina text-sm leading-relaxed">

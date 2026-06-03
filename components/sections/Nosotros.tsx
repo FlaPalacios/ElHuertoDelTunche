@@ -30,7 +30,7 @@ export default function Nosotros() {
               <p className="font-body text-xs tracking-[0.35em] uppercase text-tunche-blanco">
                 Nuestra historia
               </p>
-              <h2 className="font-display text-5xl lg:text-6xl text-tunche-vino tracking-wide leading-tight">
+              <h2 className="font-display text-5xl lg:text-6xl text-tunche-dorado tracking-wide leading-tight">
                 Nacidos del<br />
                 <span className="italic">bosque sagrado</span>
               </h2>
@@ -57,21 +57,6 @@ export default function Nosotros() {
               Amazonía peruana. Sin atajos, sin artificios. Solo fruta, tiempo y dedicación.
             </motion.p>
 
-            <motion.div
-              variants={fadeInUp}
-              className="grid grid-cols-3 gap-6 pt-4 border-t border-tunche-dorado/20"
-            >
-              {[
-                { number: '2019', label: 'Año de fundación' },
-                { number: '12', label: 'Productos artesanales' },
-                { number: '100%', label: 'Frutas naturales' },
-              ].map((stat) => (
-                <div key={stat.label} className="text-center">
-                  <p className="font-display text-3xl text-tunche-dorado">{stat.number}</p>
-                  <p className="font-body text-xs text-tunche-neblina mt-1 tracking-wide">{stat.label}</p>
-                </div>
-              ))}
-            </motion.div>
           </motion.div>
 
           {/* Elemento visual decorativo */}
@@ -89,7 +74,7 @@ export default function Nosotros() {
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 p-12 text-center">
                 <div className="h-px w-12 bg-tunche-dorado/40" />
                 <p className="font-display text-2xl text-tunche-blanco italic leading-relaxed">
-                  &ldquo;La naturaleza cusqueña destilada en cada gota&rdquo;
+                  &ldquo;La naturaleza cusqueña destilada en cada gota &rdquo;
                 </p>
                 <div className="h-px w-12 bg-tunche-dorado/40" />
                 <p className="font-body text-xs tracking-[0.3em] uppercase text-tunche-neblina">

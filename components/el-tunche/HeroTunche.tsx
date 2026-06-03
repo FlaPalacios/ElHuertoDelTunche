@@ -1,12 +1,20 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { fadeInUp, fadeIn, staggerContainer } from '@/lib/animations'
 
 export default function HeroTunche() {
   return (
-    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-vino-texture">
-      <div className="absolute inset-0 bg-tunche-carbon/75" />
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-tunche-carbon">
+      <Image
+        src="/images/selva-misteriosa-eltunche.jpg"
+        alt="Selva misteriosa El Tunche — Huayopata, Cusco"
+        fill
+        className="object-cover object-center"
+        priority
+      />
+      <div className="absolute inset-0 bg-tunche-carbon/80" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_60%,_#5B0F1640_0%,_transparent_70%)]" />
 
       <motion.div
@@ -33,11 +41,11 @@ export default function HeroTunche() {
           variants={fadeInUp}
           className="flex items-center justify-center gap-4 mb-8"
         >
-          <span className="h-px w-12 bg-tunche-dorado/50" />
+          <span className="h-px w-12 bg-tunche-vino/90" />
           <p className="font-display text-base sm:text-lg text-tunche-neblina italic tracking-wide">
             Licores artesanales macerados en pisco quebranta
           </p>
-          <span className="h-px w-12 bg-tunche-dorado/50" />
+          <span className="h-px w-12 bg-tunche-vino/90" />
         </motion.div>
 
         <motion.p
@@ -56,7 +64,7 @@ export default function HeroTunche() {
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
         <span className="font-body text-[10px] tracking-[0.3em] uppercase text-tunche-neblina/40">
-          Los sabores
+          Descubre los sabores
         </span>
         <motion.div
           animate={{ y: [0, 8, 0] }}

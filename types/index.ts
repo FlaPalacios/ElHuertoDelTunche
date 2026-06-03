@@ -10,6 +10,7 @@ export interface ProductoLicor {
   presentaciones: PresentacionLicor[]
   imageSrc: string
   imageAlt: string
+  presentacionImagenes?: Partial<Record<PresentacionLicor, string>>
 }
 
 export interface ProductoMermelada {

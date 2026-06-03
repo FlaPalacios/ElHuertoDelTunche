@@ -10,8 +10,8 @@ export default function Inicio() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-carbon-texture"
     >
       {/* Fondo atmosférico */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_70%,_#4A342640_0%,_#0D0D0D_65%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_40%_40%_at_50%_10%,_#B08A4708_0%,_transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_70%_at_50%_40%,_#241915_10%,_#0D0D0D_40%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_40%_40%_at_50%_10%,_#B08A4708_00%,_transparent_70%)]" />
 
       {/* Línea decorativa superior */}
       <motion.div
@@ -31,12 +31,12 @@ export default function Inicio() {
           variants={fadeInUp}
           className="font-body text-xs tracking-[0.4em] uppercase text-tunche-neblina mb-8"
         >
-          Cusco, Perú — Desde 2025
+          Cusco, Perú
         </motion.p>
 
         <motion.h1
           variants={fadeInUp}
-          className="font-display text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-tunche-vino tracking-wide leading-none mb-6"
+          className="font-display text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-tunche-dorado tracking-wide leading-none mb-6"
         >
           El Huerto<br />
           <span className="italic">del Tunche</span>
@@ -48,7 +48,7 @@ export default function Inicio() {
         >
           <span className="h-px w-12 bg-tunche-dorado/60" />
           <p className="font-display text-lg sm:text-xl text-tunche-neblina italic tracking-wide">
-            Destilado en la sombra del bosque
+            Elaborados en la sombra del bosque
           </p>
           <span className="h-px w-12 bg-tunche-dorado/60" />
         </motion.div>
